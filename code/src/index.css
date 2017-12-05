@@ -30,7 +30,7 @@ header {
 
 .text {
   flex-grow: 2;
-  margin: 2% 4% 2% 4%;
+  margin: 10px 15px 10px 15px;
   height: 100%;
   align-items: stretch;
 }
@@ -42,6 +42,7 @@ img {
 
 p {
   padding-bottom: 10px;
+  height: 100px;
 }
 
 ul {
@@ -53,6 +54,6 @@ ul {
 }
 
 .audio {
-  height: 25%;
+  height: 20%;
   margin-bottom: 15px;;
 }
