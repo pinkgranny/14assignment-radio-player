@@ -9,7 +9,10 @@ class Radio extends React.Component {
           <h2>{this.props.name} </h2>
           {this.props.tagline}
           {this.props.color}
-          {/* {this.props.liveaudio.url} */}
+        <audio controls>
+          <source src={this.props.url} />
+        </audio>
+
         {/* </div> */}
       </div>
     )

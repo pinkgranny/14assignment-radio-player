@@ -32,7 +32,7 @@ class App extends React.Component {
               name={item.name}
               tagline={item.tagline}
               color={item.color}
-              // url={item.liveaudio.url}
+              url={item.liveaudio.url}
             />
           })}
         </div>
