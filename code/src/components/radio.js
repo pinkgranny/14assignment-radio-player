@@ -9,11 +9,12 @@ class Radio extends React.Component {
           {/* <div className="radiostation-content"> */}
         </div>
         <div className="text">
-          <ul>
+          <ul className="description">
             <li><h2>{this.props.name} </h2></li>
             <li><p>{this.props.tagline}</p></li>
-
-            <li className="audio"><audio controls>
+          </ul>
+          <ul className="audio">
+            <li><audio controls>
               <source src={this.props.url} />
             </audio></li>
           </ul>

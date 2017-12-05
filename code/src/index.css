@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -28,6 +32,7 @@ header {
   flex-grow: 2;
   margin: 2% 4% 2% 4%;
   height: 100%;
+  align-items: stretch;
 }
 
 img {
@@ -41,4 +46,13 @@ p {
 
 ul {
   list-style: none;
+}
+
+.description {
+  height: 55%;
+}
+
+.audio {
+  height: 25%;
+  margin-bottom: 15px;;
 }
