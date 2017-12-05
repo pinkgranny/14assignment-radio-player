@@ -14,7 +14,10 @@ class App extends React.Component {
     }).then((json) => {
       console.log(json.channels)
       this.setState({
-        radioChannel: json.channels
+        radioChannel: [json.channels[1], json.channels[2], json.channels[18],
+          json.channels[28], json.channels[29], json.channels[30],
+          json.channels[32], json.channels[33], json.channels[34],
+          json.channels[36], json.channels[48], json.channels[49], json.channels[54]]
       })
     })
   }
